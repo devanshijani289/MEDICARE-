@@ -1,0 +1,210 @@
+
+/* Additional Client/Admin sign-in styles. Existing app styles are unchanged. */
+.login-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 18px;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(0,184,169,.18), transparent 30%),
+    radial-gradient(circle at 85% 85%, rgba(47,128,237,.20), transparent 32%),
+    linear-gradient(135deg, #0b1220, #132b46 60%, #123c52);
+}
+
+#appShell[hidden], #loginScreen[hidden] {
+  display: none !important;
+}
+
+.login-card {
+  width: min(100%, 460px);
+  padding: 34px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0 25px 80px rgba(0,0,0,.28);
+}
+
+.login-brand {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-brand-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 12px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 2rem;
+  background: linear-gradient(135deg, #2f80ed, #00b8a9);
+}
+
+.login-eyebrow {
+  margin: 0;
+  color: #64748b;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.login-brand h1 {
+  margin: 2px 0;
+  color: #172554;
+  font-size: 2.25rem;
+  font-weight: 850;
+}
+
+.login-brand h1 span {
+  color: #00a99a;
+}
+
+.login-subtitle {
+  margin: 0;
+  color: #64748b;
+  font-size: .92rem;
+}
+
+.login-role-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  padding: 5px;
+  margin-bottom: 25px;
+  border-radius: 13px;
+  background: #eef3f8;
+}
+
+.login-role-btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 11px;
+  color: #526174;
+  background: transparent;
+  font-weight: 700;
+  transition: .2s ease;
+}
+
+.login-role-btn.active {
+  color: #fff;
+  background: #2f80ed;
+  box-shadow: 0 5px 14px rgba(47,128,237,.25);
+}
+
+.login-panel h2 {
+  margin: 0 0 5px;
+  color: #172554;
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.login-help {
+  margin-bottom: 22px;
+  color: #718096;
+  font-size: .9rem;
+}
+
+.login-panel label {
+  display: block;
+  margin: 14px 0 7px;
+  color: #334155;
+  font-size: .87rem;
+  font-weight: 700;
+}
+
+.login-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.login-input-wrap > i {
+  position: absolute;
+  left: 14px;
+  color: #8292a7;
+}
+
+.login-input-wrap input {
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 45px 10px 42px;
+  border: 1px solid #dce4ed;
+  border-radius: 11px;
+  outline: none;
+  color: #1f2937;
+  background: #fff;
+  transition: .2s ease;
+}
+
+.login-input-wrap input:focus {
+  border-color: #2f80ed;
+  box-shadow: 0 0 0 3px rgba(47,128,237,.12);
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  border: 0;
+  padding: 7px;
+  color: #64748b;
+  background: transparent;
+}
+
+.login-submit {
+  width: 100%;
+  margin-top: 12px;
+  padding: 13px 16px;
+  border: 0;
+  border-radius: 11px;
+  color: #fff;
+  background: linear-gradient(100deg, #2f80ed, #00a99a);
+  font-weight: 800;
+  transition: .2s ease;
+}
+
+.login-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 9px 20px rgba(47,128,237,.22);
+}
+
+.admin-submit {
+  background: linear-gradient(100deg, #334155, #172554);
+}
+
+.login-error {
+  min-height: 20px;
+  margin: 9px 0 0;
+  color: #dc3545;
+  font-size: .82rem;
+}
+
+.login-footer {
+  margin: 22px 0 0;
+  text-align: center;
+  color: #64748b;
+  font-size: .82rem;
+}
+
+.login-footer i {
+  color: #00a99a;
+}
+
+.login-copyright {
+  margin: 17px 0 0;
+  color: rgba(255,255,255,.7);
+  font-size: .8rem;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 26px 21px;
+  }
+}
+
+/* Hide the dashboard that does not belong to the logged-in role */
+[hidden] {
+    display: none !important;
+}

@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "title": "Walking",
+    "level": "Beginner",
+    "minutes": 15,
+    "description": "Take a comfortable walk outdoors or indoors.",
+    "tip": "Start slowly and increase your walking time gradually."
+  },
+  {
+    "id": 2,
+    "title": "Stretching",
+    "level": "Beginner",
+    "minutes": 10,
+    "description": "Perform gentle stretches for your arms, legs and back.",
+    "tip": "Avoid bouncing or forcing a stretch."
+  },
+  {
+    "id": 3,
+    "title": "Yoga",
+    "level": "Beginner",
+    "minutes": 20,
+    "description": "Try simple yoga poses and breathing exercises.",
+    "tip": "Choose comfortable poses and focus on controlled breathing."
+  },
+  {
+    "id": 4,
+    "title": "Cycling",
+    "level": "Intermediate",
+    "minutes": 25,
+    "description": "Ride a bicycle at a comfortable speed.",
+    "tip": "Wear a helmet and choose a safe cycling route."
+  },
+  {
+    "id": 5,
+    "title": "Bodyweight Squats",
+    "level": "Intermediate",
+    "minutes": 15,
+    "description": "Perform controlled squats using your body weight.",
+    "tip": "Keep your movements controlled and use a comfortable range."
+  },
+  {
+    "id": 6,
+    "title": "Deep Breathing",
+    "level": "Beginner",
+    "minutes": 5,
+    "description": "Sit comfortably and practise slow, gentle breathing.",
+    "tip": "Stop if you feel dizzy or uncomfortable."
+  }
+]

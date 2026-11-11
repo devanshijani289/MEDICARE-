@@ -1,0 +1,39 @@
+
+[
+  {
+    "id": 1,
+    "title": "Importance of Drinking Water",
+    "category": "Hydration",
+    "description": "Drinking enough water helps maintain body temperature, supports digestion and keeps your body hydrated."
+  },
+  {
+    "id": 2,
+    "title": "Benefits of Regular Exercise",
+    "category": "Fitness",
+    "description": "Regular physical activity supports heart health, improves strength and can help improve your mood."
+  },
+  {
+    "id": 3,
+    "title": "Importance of Good Sleep",
+    "category": "Sleep",
+    "description": "Good sleep helps the body recover, supports concentration and improves overall well-being."
+  },
+  {
+    "id": 4,
+    "title": "Healthy Eating Habits",
+    "category": "Nutrition",
+    "description": "A balanced diet containing fruits, vegetables, grains and protein supports everyday health."
+  },
+  {
+    "id": 5,
+    "title": "Medicine Safety",
+    "category": "Medicine",
+    "description": "Follow the instructions given by your healthcare professional and do not change medicine doses on your own."
+  },
+  {
+    "id": 6,
+    "title": "Managing Daily Stress",
+    "category": "Mental Wellness",
+    "description": "Relaxation, enjoyable activities, adequate sleep and talking to trusted people can help manage everyday stress."
+  }
+]
